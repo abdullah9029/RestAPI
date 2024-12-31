@@ -104,6 +104,7 @@ code {
 }
 
 /*Login Page  */
+
 .login-container {
   max-width: 400px;
   margin: 2rem auto;
@@ -172,4 +173,51 @@ code {
   text-align: center;
   background-color: #f8f9fa;
   color: #666;
+}
+
+/* Delete User */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.title {
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.delete-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.user-input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 300px;
+  font-size: 16px;
+}
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+.delete-btn:hover {
+  background-color: #c82333;
+}
+.message {
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 500px;
 }
