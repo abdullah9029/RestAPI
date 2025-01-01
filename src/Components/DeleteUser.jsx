@@ -33,8 +33,8 @@ const DeleteUser = () => {
   };
 
   return (
-    <div className="cointainer">
-      <div>
+    <div className="login-container">
+      <div className="form-group">
         <h1 className="title">Delete User</h1>
       </div>
       <div className="delete-form">
